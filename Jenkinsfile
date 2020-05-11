@@ -1,3 +1,5 @@
+
+
 pipeline {
      agent any
      stages {
@@ -8,7 +10,7 @@ pipeline {
                      echo "Multiline shell steps works too"
                      ls -lah
                  '''
-             }
+                    }
          }
          stage('Lint HTML') {
               steps {
